@@ -1,0 +1,25 @@
+It defines the order in which Python searches for
+methods and attributes in inheritance, especially in multiple inheritance.
+
+Why MRO is needed?
+
+Suppose a class inherits from multiple parent classes, and multiple parents have the same method.
+
+Python needs rules to decide:
+
+“Which method should I call first?”
+
+MRO solves this problem.
+
+One-line Interview Answer:
+MRO (Method Resolution Order) defines the sequence in which Python searches parent classes
+ for methods and attributes, especially during multiple inheritance.
+
+Real Importance of MRO
+
+MRO is very important in:
+Multiple inheritance
+Frameworks
+Mixins
+super()
+Large object-oriented systems

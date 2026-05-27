@@ -1,0 +1,25 @@
+Internal Working
+
+When Python performs slicing:
+
+nums[1:4]
+
+It internally:
+
+Creates a new list
+Iterates from start index to end index
+Copies references of elements into new list
+
+Time Complexity:
+
+O(k) where k = number of sliced elements
+
+------------------
+
+Slicing works on many sequence types, including:
+
+Strings
+Lists
+Tuples
+Bytes
+Range objects

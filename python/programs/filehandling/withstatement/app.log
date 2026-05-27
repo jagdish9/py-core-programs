@@ -1,0 +1,6 @@
+trace line 34 ERROR
+Check line 39
+file not found error
+either fix or put in try catch
+unsupported operation ERROR
+throwable

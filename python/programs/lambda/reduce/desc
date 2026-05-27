@@ -1,0 +1,7 @@
+reduce() reduces entire iterable into single value.
+
+It is available in:
+from functools import reduce
+
+Syntax:
+reduce(function, iterable)

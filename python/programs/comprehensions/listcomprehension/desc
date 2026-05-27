@@ -1,0 +1,32 @@
+nested = [[1, 2], [3, 4], [5, 6]]
+
+flat = [item for sublist in nested for item in sublist]
+
+print(flat)
+
+How It Works
+for sublist in nested:
+    for item in sublist:
+        add item
+-------
+
+Most Preferred Interview Answer
+flat = [item for sublist in nested for item in sublist]
+
+Because:
+
+Pythonic
+Fast
+Readable
+Commonly used in real projects
+
+-----------
+
+Basic Syntax:
+[expression for item in iterable]
+
+Syntax with if:
+[expression for item in iterable if condition]
+
+Syntax with if-else:
+[true_value if condition else false_value for item in iterable]

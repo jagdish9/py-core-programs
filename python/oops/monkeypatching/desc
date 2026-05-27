@@ -1,0 +1,15 @@
+Monkey patching is a programming technique where you modify or extend code at runtime,
+typically by changing or adding
+attributes (methods, variables) to classes or modules without altering the original source code.
+
+Monkey patching = dynamically changing code behavior at runtime without touching the original implementation.
+
+Common uses
+Fixing bugs in third-party libraries temporarily
+Adding features to existing code without modifying it
+Testing (e.g., mocking behavior)
+
+Downsides
+Can make code harder to understand and debug
+Unexpected side effects if other parts rely on original behavior
+Considered risky in large or production systems

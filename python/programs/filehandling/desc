@@ -1,0 +1,25 @@
+File Handling in Python
+
+File handling is used to:
+Read files
+Write files
+Append data
+Process logs/reports
+
+Very important for interviews.
+
+Opening a File
+Syntax:
+open(filename, mode)
+
+Example:
+file = open("test.txt", "r")
+
+File Modes:
+Mode	Meaning
+r	    Read
+w	    Write (overwrite)
+a	    Append
+x	    Create new file
+rb	    Read binary
+wb	    Write binary

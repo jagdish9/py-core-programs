@@ -1,0 +1,8 @@
+A lambda is an anonymous (nameless) function.
+
+Syntax:
+lambda arguments: expression
+
+Can have multiple arguments
+Only one expression
+Automatically returns value

@@ -1,0 +1,9 @@
+filter() filters elements based on condition.
+
+Syntax
+filter(function, iterable)
+
+Function should return:
+
+True → keep element
+False → remove element

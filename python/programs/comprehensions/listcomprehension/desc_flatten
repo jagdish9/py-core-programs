@@ -1,0 +1,12 @@
+Rule for Nested Loops
+
+Write loops in same order as normal loop.
+
+Normal:
+
+for a in x:
+    for b in a:
+
+Comprehension:
+
+[b for a in x for b in a]

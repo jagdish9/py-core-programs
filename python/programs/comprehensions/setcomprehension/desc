@@ -1,0 +1,10 @@
+Set Comprehension
+nums = [1, 2, 2, 3]
+
+result = {x * x for x in nums}
+
+print(result)
+
+Output:
+
+{1, 4, 9}

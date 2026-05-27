@@ -1,0 +1,16 @@
+Instead of manually closing:
+
+file = open("test.txt")
+
+Use:
+
+with open("test.txt", "r") as file:
+    data = file.read()
+    print(data)
+
+Why?
+Automatically closes file
+Prevents memory leaks
+Cleaner code
+
+Interviewers like this answer.

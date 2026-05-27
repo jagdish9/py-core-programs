@@ -1,0 +1,16 @@
+Dictionary Comprehension
+
+Syntax:
+{key:value for item in iterable}
+
+Example:
+
+nums = [1, 2, 3]
+
+result = {x: x * x for x in nums}
+
+print(result)
+
+Output:
+
+{1: 1, 2: 4, 3: 9}

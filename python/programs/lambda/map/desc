@@ -1,0 +1,4 @@
+map() applies a function to every element of an iterable.
+
+Syntax:
+map(function, iterable)
